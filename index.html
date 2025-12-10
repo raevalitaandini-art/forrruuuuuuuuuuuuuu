@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan Spesial Ulang Tahun</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body onload="tampilkanPesan()">
+
+    <div class="container">
+        <h1>Loading Pesan Spesial...</h1>
+        <p>Jika pop-up tidak muncul, silakan tekan F5 atau refresh halaman.</p>
+    </div>
+
+    <script>
+        function tampilkanPesan() {
+            alert('HBD BROK KURANGI NAKALMU');
+            document.querySelector('h1').innerText = 'Pesan Sudah Disampaikan!';
+            document.querySelector('p').innerText = 'Selamat ulang tahun!';
+        }
+    </script>
+</body>
+</html>
